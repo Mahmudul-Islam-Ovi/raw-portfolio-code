@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- header start -->
+    <header>
+        <div >
+            <img class="logo" src="./images/logo.png" alt="Logo">
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#service">Service</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- header end -->
+    <!-- slider start -->
+    <div class="slider-container">
+        <button class="prev" onclick="prevSlide()">&#10094;</button>
+        <img src="./images/Banner-1.png" alt="Image 1">
+        <img src="./images/Banner-2.png" alt="Image 2">
+        <img src="./images/Banner-3.png" alt="Image 3">
+        <button class="next" onclick="nextSlide()">&#10095;</button>
+    </div>
+    <!-- slider end -->
+
+    <!-- service page -->
+    <h1 id="service" class="about">Our Service</h1>
+    <h3 class="page-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam quod corrupti
+        incidunt suscipit officia assumenda unde deleniti alias consectetur, adipisicing elit. Aperiam quod corrupti
+        incidunt suscipit officia assumenda unde deleniti aliasconsectetur, adipisicing elit. Aperiam quod corrupti
+        incidunt suscipit officia assumenda unde deleniti alias velit natus.</h3>
+
+    <div class="container">
+        <div class="card">
+            <img src="./images/web design.png" alt="Service 1">
+            <div class="card-content">
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et malesuada libero.</p>
+                <a class="btn" href="./pages//services/service1.html">Details</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./images/Seo 2.png" alt="Service 2">
+            <div class="card-content">
+                <h2>SEO</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et malesuada libero.</p>
+                <a class="btn" href="./pages//services/service2.html">Details</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./images/app.png" alt="Service 3">
+            <div class="card-content">
+                <h2>App Development</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et malesuada libero.</p>
+                <a class="btn" href="./pages//services/service3.html">Details</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- service page end  -->
+
+    <!-- about page start -->
+
+    <h1 id="about" class="about">About Us</h1>
+    <h4 class="description-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur temporibus alias
+        voluptates aspernatur. Totam iure perspiciatis magnam atque itaque velit, excepturi debitis nisi cumque,
+        repellat voluptatibus rerum ea maxime sequi odit enim tenetur cupiditate unde sed pariatur. Et, velit, dolorem
+        non repudiandae doloremque pariatur corrupti in mollitia nihil magnam aperiam.</h4>
+    <section class="about-section">
+        <div class="about-content">
+            <h2>Our Mission</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci
+                luctus et ultrices posuere cubilia Curae; Integer et tincidunt justo. Integer ac turpis sed nisi dictum
+                auctor.</p>
+            <h2>Our Vision</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci
+                luctus et ultrices posuere cubilia Curae; Integer et tincidunt justo. Integer ac turpis sed nisi dictum
+                auctor.</p>
+        </div>
+
+        <div class="about-images">
+            <img src="./images/web design.png" alt="About Image 1">
+            <img src="./images/app.png" alt="About Image 2">
+            <img src="./images/Seo 2.png" alt="About Image 3">
+        </div>
+    </section>
+
+    <!-- about page end  -->
+
+    <!-- contact us page  -->
+    <div id="contact">
+        <h1 class="about">Contact Us</h1>
+        <h4 class="description-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur temporibus
+            alias
+            voluptates aspernatur. Totam
+            iure perspiciatis magnam atque itaque velit, excepturi debitis nisi cumque, repellat voluptatibus rerum ea
+            maxime
+            sequi odit enim tenetur cupiditate unde sed pariatur. Et, velit, dolorem non repudiandae doloremque pariatur
+            corrupti in mollitia nihil magnam aperiam.</h4>
+        <div class="contact-container">
+            <section class="contact-section">
+                <h2>Contact Form</h2>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone:</label>
+                        <input type="phone" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+            <section class="address-section">
+                <h2>Address</h2>
+                <p>Savar</p>
+                <p>Genda, Dhaka, 1307</p>
+                <p>Bangladesh</p>
+                <p>Email: info@example.com</p>
+            </section>
+        </div>
+    </div>
+
+    <!-- contact us page end  -->
+
+
+    <!-- Footer  page start  -->
+    <footer>
+        <div class="footer-menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="footer-info">
+            <p>&copy; MD Mahmudul Islam. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- Footer  page end  -->
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
